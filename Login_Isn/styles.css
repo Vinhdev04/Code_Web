@@ -1,0 +1,63 @@
+body {
+  background-color: #fff;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  border: 1px solid #000;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin-top: 70px;
+  position: relative;
+  box-shadow: 3px 6px 6px 17px whitesmoke; /* Box shadow đã được thêm */
+}
+
+.form button {
+  font-weight: bold;
+  margin-top: 20px;
+  width: 269px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #4cb5f9;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+  font-size: 15px;
+  width: 248px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out; /* Transition đã được thêm */
+}
+
+.form input[type="text"]:hover,
+.form input[type="password"]:hover {
+  transform: scale(1.1); /* Transform đã được thêm */
+}
+
+.connect {
+  position: absolute;
+  border: 1px solid #000;
+  margin-top: 565px;
+  width: 400px;
+  text-align: center;
+}
+
+.login-form a {
+  text-decoration: none;
+  margin-top: 2px;
+}
